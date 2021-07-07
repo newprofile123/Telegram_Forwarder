@@ -14,7 +14,7 @@ class Config(object):
     OWNER_ID = "1751183371"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
-    FROM_CHATS = [@AnimeMusicStash ]  # List of chat id's to forward messages from
+    FROM_CHATS = [-@AnimeMusicStash ]  # List of chat id's to forward messages from
     TO_CHATS = []  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
