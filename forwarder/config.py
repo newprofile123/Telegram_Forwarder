@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "617722711:AAHysCHsVcQja6LOlHa88101lKjrxez80-M"  # API key obtained from BotFather
-    OWNER_ID = "582884567"  # If you dont know, run the bot and do /id in your private chat with the bot
+    API_KEY = "1858634572:AAGO3f8uSZXlr2JrkHV-xZghdgPA6HnHVJ0"  # API key obtained from BotFather
+    OWNER_ID = "1751183371"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
-    FROM_CHATS = [-1001234704297 ]  # List of chat id's to forward messages from
-    TO_CHATS = [-1001128355490]  # List of chat id's to forward messages to
+    FROM_CHATS = [@AnimeMusicStash ]  # List of chat id's to forward messages from
+    TO_CHATS = []  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
     WEBHOOK = False
